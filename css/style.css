@@ -306,3 +306,98 @@ body {
 }
 
 /* end of header */
+
+/* about us */
+.about-us {
+  margin-left: 8rem;
+  display: flex;
+  background-color: #ddd;
+}
+
+/*
+  flex-grow   0     < by default item does not grow; >0 item will grow to fill available space
+  flex-shrink 1     < by default item shrinks; 0 item will not shrink
+  flex-basis  auto  < default is auto; width/height affected depending on flex-direction
+
+  flex: 0 1 50%     < Below we do not want left side to grow beyond the 50% we specified.
+                      We do however want it to shrink to make it responsive.                
+  flex: 1           < We just need to specify the right side to grow and take up the rest of the 
+                      space available.  We also want it to be shrink for responsiveness.               
+*/
+
+.about-us-content {
+  flex: 0 1 50%;
+  border: 1px dotted green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+
+.about-us-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.small-underline {
+  width: 9rem;
+  height: 0.1rem;
+  background-color: #b85d1c;
+  margin: 0 auto 1rem auto;
+}
+
+.big-underline {
+  width: 20rem;
+  height: 0.1rem;
+  background-color: #b85d1c;
+}
+
+.sub-heading {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #b85d1c;
+}
+
+.about-us-paragraph {
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.about-us-btn {
+  width: 15rem;
+  padding: 0.7rem 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #b85d1c;
+  background-color: transparent;
+  border: 0.1rem solid #b85d1c;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-arrow {
+  margin-left: 0.5rem;
+  transition: margin-left 0.4s;
+}
+
+.about-us-btn:hover .btn-arrow {
+  margin-left: 1.5rem;
+}
+
+.about-us-images {
+  flex: 1 1;
+  border: 1px dotted red;
+}
+
+/* end of about us */
