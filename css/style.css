@@ -251,7 +251,8 @@ body {
 
 .banner {
   color: #ddd;
-  height: 65rem;
+  /* height: 65rem; */
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -591,3 +592,10 @@ body {
 }
 
 /* end of customers */
+
+/* footer */
+.footer {
+  margin-left: 8rem;
+}
+
+/* end of footer */
