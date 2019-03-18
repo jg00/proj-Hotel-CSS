@@ -20,4 +20,3 @@ Coded along to build a Hotel Site with CSS to learn CSS fundamentals and styling
 ###### Frontend
 
 :coffee: **_CSS_**
-
