@@ -259,7 +259,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  border: 1px dotted #fff;
+  /* border: 1px dotted #fff; */
 }
 
 .banner-heading {
@@ -329,7 +329,7 @@ body {
 
 .about-us-content {
   flex: 0 1 50%;
-  border: 1px dotted green;
+  /* border: 1px dotted green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -386,7 +386,7 @@ body {
 
 .about-us-images {
   flex: 1 1;
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   position: relative;
 }
 
@@ -420,7 +420,7 @@ body {
   padding: 5rem;
   text-align: center;
   color: #b85d1c;
-  border: 0.5px dotted green;
+  /* border: 0.5px dotted green; */
 }
 
 .common-heading {
@@ -464,7 +464,7 @@ body {
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
 
-  border: 0.5px dotted greenyellow;
+  /* border: 0.5px dotted greenyellow; */
 }
 
 .room-img {
@@ -547,7 +547,7 @@ body {
   margin: 2rem auto 8rem auto;
   text-align: center;
 
-  border: 1px dotted lightblue;
+  /* border: 1px dotted lightblue; */
 }
 
 .customers-card-wrapper {
