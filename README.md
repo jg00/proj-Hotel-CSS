@@ -3,7 +3,7 @@
 ## Hotel Site Demo (Click .gif to view YouTube demo ~2mins)
 
 <a href="https://youtu.be/qcWz3YAHR-w" target="_blank"><img src="https://i.imgflip.com/2wcqfl.gif" title="Hotel Site - CSS"/></a>
-<br><a href="grand-hotel-jg.surge.sh" target="_blank"/>
+<br><a href="grand-hotel-jg.surge.sh" target="_blank">Grand Hotel CSS Site</a>
 
 ## Site Features
 
